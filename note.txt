@@ -8,9 +8,13 @@ create-react-app my-app
 npm run start
 
 
+git命令：
+git add -A
+git commit -m "提交备注"
+git push
+
+
 git:
-
-
 生产本地ssh秘钥：
 https://blog.csdn.net/jingtingfengguo/article/details/51892864
 
