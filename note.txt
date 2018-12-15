@@ -1,4 +1,4 @@
-安装：
+安装:
 nvm: 管理node和npm的版本(version)
 nrm: 管理仓库来源(registry)
 npm: 管理包(package),package.json文件
@@ -6,3 +6,21 @@ npm: 管理包(package),package.json文件
 npm install -g create-react-app
 create-react-app my-app
 npm run start
+
+
+git:
+
+
+生产本地ssh秘钥：
+https://blog.csdn.net/jingtingfengguo/article/details/51892864
+
+需添加路径
+$ ssh-add ~/.ssh/id_rsa
+
+运行：
+$ ssh -v git@github.com
+
+
+
+
+
