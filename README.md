@@ -10,8 +10,6 @@
 [es6的十个新特性简单版](https://juejin.im/post/5b1d1fd6f265da6e410e137c)
 
 
-高阶:
-
 2.快速入门css: 
 
 [css选择器简介](https://www.jianshu.com/p/e7a752d0dd38)(知道选择器的使用，__id,类名，属性，层级__ 这几个就差不多了)
@@ -31,7 +29,7 @@ mdn的css和js文档:谷歌搜索mdn js或mdn css即可。*(__工具文档__)*
 
 ### 后端:
 
-
+to be continued
 
 
 
