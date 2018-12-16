@@ -5,7 +5,7 @@
 
 1.快速入门js:
 
-[js简明教程](http://yanhaijing.com/basejs/)(大概看一下，__知道function如何定义和使用，知道var,for,if,switch,?=,while,赋值,object和number和string和bool和数组,null和undefined,typeof,闭包,this,分号,注释__ 的使用，就可以超神了)
+[js简明教程](http://yanhaijing.com/basejs/)(大概看一下，__知道function如何定义和使用，知道var,for,if,switch,?=,while,赋值,object和number和string和bool和数组,null和undefined,typeof,闭包,this,分号,注释__ 的使用，就可以超神了)
 
 [es6的十个新特性简单版](https://juejin.im/post/5b1d1fd6f265da6e410e137c)
 
@@ -16,7 +16,7 @@
 
 [css选择器简介](https://www.jianshu.com/p/e7a752d0dd38)(知道选择器的使用，__id,类名，属性，层级__ 这几个就差不多了)
 
-[css学习小网站](http://zh.learnlayout.com/)(大致了解选择器后，知道一些css属性,包括 __display,background,color,font,盒子模型(padding,border,margin分别表示内,边框,外编剧),postion,float,媒体查询__ ，就可以超神了)
+[css学习小网站](http://zh.learnlayout.com/)(大致了解选择器后，知道一些css属性,包括 __display,background,color,font,盒子模型(padding,border,margin分别表示内,边框,外编剧),postion,float,媒体查询__ ，就可以超神了)
 
 
 3.高级指南，这部分需要 __慢慢看__:
