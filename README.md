@@ -1,5 +1,5 @@
 ## 佩佩的进击之路
-### 快速webpack
+### 快速学习前端打包利器webpack：使用webpack打包一个简单的前端项目！
 1. https://webpack.js.org/guides/getting-started/#basic-setup
 
 
