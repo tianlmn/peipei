@@ -11,7 +11,7 @@ function component() {
     let button = document.createElement('button');
   
     // Lodash, currently included via a script, is required for this line to work
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+    element.innerHTML = _.join(['Hello', 'webpack', 'hotDevServer'], ' ');
     element.classList.add('hellosass');
     element.classList.add('hello');
     
