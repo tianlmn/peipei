@@ -9,7 +9,7 @@ function component() {
     btn.innerHTML = 'Click me and check the console!';
     btn.onclick = printMe;
     element.appendChild(btn);
-  var x=1;
+  
     return element;
   }
   
