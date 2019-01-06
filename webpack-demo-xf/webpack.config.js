@@ -5,15 +5,18 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+      app:'./src/index.js',
+      print:'./src/print.js'
+  },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
   plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
-           title: 'Output Management'
+           title: 'htmlWebpackPlugin'
          }),
          new MiniCssExtractPlugin({
             // Options similar to the same options in webpackOptions.output
