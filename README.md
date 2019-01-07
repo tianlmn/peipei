@@ -1,7 +1,7 @@
 ## 佩佩的进击之路
 ### 快速学习前端打包利器webpack：使用webpack打包一个简单的前端项目！
 1. https://webpack.js.org/guides/getting-started/#basic-setup
-2. 实践项目在webpack-demo目录下
+2. 实践项目在webpack-demo-xf目录下
 
 
 ## 有用的url
