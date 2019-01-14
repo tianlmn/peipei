@@ -24,13 +24,19 @@
 
 3.高级指南，这部分需要 __慢慢看__:
 
-react中文教程文档:[https://react.docschina.org/docs/hello-world.html](https://react.docschina.org/docs/hello-world.html)*(__高级指南__ 部分是 __工具文档__)*
+react中文教程文档:[https://react.docschina.org/docs/hello-world.html](https://react.docschina.org/docs/hello-world.html)_(__高级指南__ 部分是 __工具文档__)_
 
 阮一峰的es6文档:[http://es6.ruanyifeng.com/](http://es6.ruanyifeng.com/)*(__工具书__)*
 
 mdn的css和js文档:谷歌搜索mdn js或mdn css即可。*(__工具文档__)*
 
 看书《你不知道的JavaScript》(我也才刚看完上，绝大多数程序员都需要看，但是有都没有看过的书，看过一本就超神)*(__内功书__)*
+
+#### 1.20前任务
+
+1. _React+koa2+weback+babel框架_
+
+1. _webpack需要生产和开发两套环境_
 
 ### 后端:
 
