@@ -1,7 +1,8 @@
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+//const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+const TerserPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
@@ -9,7 +10,8 @@ const webpack = require('webpack');
 
 
 const devMode = process.env.NODE_ENV === 'development';
-const uglifyJsPluginConfig = {
+
+const TerserPluginConfig = {
     cache: true,
     parallel: true,
     sourceMap: true // set to true if you want JS source maps
@@ -19,7 +21,6 @@ module.exports = {
     entry: {
         app: './src/index.js'
     },
-
     output: {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, '../dist'),
@@ -32,7 +33,7 @@ module.exports = {
         },
         //压缩js和css
         minimizer: devMode ? [] : [
-            new UglifyJsPlugin(uglifyJsPluginConfig),
+            new TerserPlugin(TerserPluginConfig),
             new OptimizeCSSAssetsPlugin({})
         ]
     },
