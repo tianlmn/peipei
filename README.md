@@ -32,11 +32,22 @@ mdn的css和js文档:谷歌搜索mdn js或mdn css即可。*(__工具文档__)*
 
 看书《你不知道的JavaScript》(我也才刚看完上，绝大多数程序员都需要看，但是有都没有看过的书，看过一本就超神)*(__内功书__)*
 
-#### 1.20前任务
+#### 斐斐的任务
 
 1. _React+koa2+weback+babel框架_
 
 1. _webpack需要生产和开发两套环境_
+
+#### 佩佩的任务
+
+1. 更新java的代码，给接口加入以下几个字段：
+    1. 当前时间，格式为"servernow":"2019-2-2 19:20:22"和浏览器时间(看看能不能实现)："clientnow":"xxxxxx"
+    1. 用户请求的cache信息，打印出所有的cache字段，"key1":"value1"\n"key2":"value2"...
+    1. 在用户http回复中，新增一个cacha，so: easy
+    1. 配置idea的自动语法补全
+
+1. 把这新的soa项目，上传到peppa，并且重启服务器，使得www.cutepeppa.com/soa生效
+
 
 ### 后端:
 
