@@ -42,8 +42,8 @@ mdn的css和js文档:谷歌搜索mdn js或mdn css即可。*(__工具文档__)*
 
 1. 更新java的代码，给接口加入以下几个字段：
     1. 当前时间，格式为"servernow":"2019-2-2 19:20:22"和浏览器时间(看看能不能实现)："clientnow":"xxxxxx"
-    1. 用户请求的cache信息，打印出所有的cache字段，"key1":"value1"\n"key2":"value2"...
-    1. 在用户http回复中，新增一个cacha，so: easy
+    1. 用户请求的cookie信息，打印出所有的cookie字段，"key1":"value1"\n"key2":"value2"...
+    1. 在用户http回复中，新增一个cookie，so: easy，了解一下什么是cookie，什么是session，有啥区别。
     1. 配置idea的自动语法补全
 
 1. 把这新的soa项目，上传到peppa，并且重启服务器，使得www.cutepeppa.com/soa生效
